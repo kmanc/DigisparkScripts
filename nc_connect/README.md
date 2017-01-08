@@ -1,0 +1,1 @@
+Downloads netcat and runs it on the target machine.  Will attempt to connect back to port 3333 on whatever device you set as the listener (you'll have to change the part that says {listener ip} to an actual ip address)
